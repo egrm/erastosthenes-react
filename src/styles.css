@@ -1,0 +1,16 @@
+.App .number {
+  display: inline-block;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  font: 16px monospace;
+
+  background-color: lightgreen;
+  min-width: 3rem;
+  text-align: center;
+}
+
+.App .number.number--false {
+  background-color: silver;
+  color: #777;
+  text-decoration: line-through;
+}
